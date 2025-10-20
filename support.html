@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>技术支持 - KnowAtom</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin: 40px 0 20px 0;
+            padding-left: 15px;
+            border-left: 4px solid #667eea;
+        }
+
+        h3 {
+            font-size: 1.3em;
+            color: #555;
+            margin: 25px 0 15px 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+
+        .intro {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .faq-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .faq-answer {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .contact-box h2 {
+            color: white;
+            border: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        .email-link {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: transform 0.2s;
+        }
+
+        .email-link:hover {
+            transform: scale(1.05);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .feature-item {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .feature-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: "Monaco", "Courier New", monospace;
+            font-size: 0.9em;
+            color: #e83e8c;
+        }
+
+        ol, ul {
+            margin-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #f0f0f0;
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📱 KnowAtom</h1>
+            <p class="subtitle">智能对话助手 - 技术支持</p>
+        </div>
+
+        <div class="intro">
+            <h2>关于 KnowAtom</h2>
+            <p>KnowAtom 是一款功能强大的 AI 对话管理应用，支持多家主流 AI 服务商，具有独特的树状对话管理功能，让您的每一次思考都清晰可追溯。</p>
+
+            <div class="features">
+                <div class="feature-item">
+                    <div class="feature-icon">🤖</div>
+                    <strong>多AI支持</strong>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🌳</div>
+                    <strong>树状对话</strong>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔒</div>
+                    <strong>本地存储</strong>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📝</div>
+                    <strong>Markdown</strong>
+                </div>
+            </div>
+        </div>
+
+        <h2>❓ 常见问题</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">Q1: 如何开始使用 KnowAtom？</div>
+            <div class="faq-answer">
+                <p>首次使用需要配置 AI 服务的 API 密钥：</p>
+                <ol>
+                    <li>打开应用，点击底部"设置"按钮</li>
+                    <li>选择要使用的 AI 服务商</li>
+                    <li>输入对应的 API 密钥（可从服务商官网获取）</li>
+                    <li>点击"验证连接"确保配置正确</li>
+                    <li>返回主界面即可开始对话</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q2: 支持哪些 AI 服务商？</div>
+            <div class="faq-answer">
+                <p>KnowAtom 目前支持以下 AI 服务商：</p>
+                <ul>
+                    <li><strong>DeepSeek</strong> - 高性价比的国产 AI 服务</li>
+                    <li><strong>OpenAI</strong> - GPT-3.5, GPT-4 系列</li>
+                    <li><strong>Claude</strong> - Anthropic 的 Claude 系列</li>
+                    <li><strong>Gemini</strong> - Google 的 Gemini 系列</li>
+                    <li><strong>Moonshot</strong> - 月之暗面 Kimi</li>
+                    <li><strong>Qwen</strong> - 阿里通义千问</li>
+                    <li><strong>智谱 AI</strong> - GLM 系列</li>
+                    <li><strong>百川智能</strong> - Baichuan 系列</li>
+                    <li><strong>MiniMax</strong> - MiniMax 系列</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q3: 如何获取 API 密钥？</div>
+            <div class="faq-answer">
+                <p>不同服务商的 API 密钥获取方式：</p>
+                <ul>
+                    <li><strong>DeepSeek</strong>: 访问 <code>platform.deepseek.com</code>，注册并在控制台创建 API Key</li>
+                    <li><strong>OpenAI</strong>: 访问 <code>platform.openai.com</code>，需要国际信用卡</li>
+                    <li><strong>其他服务商</strong>: 访问对应官网注册并获取密钥</li>
+                </ul>
+                <p><strong>提示：</strong>API 密钥仅存储在您的设备本地，不会上传到任何服务器。</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q4: 什么是树状对话模式？</div>
+            <div class="faq-answer">
+                <p>树状对话模式允许您从任意对话节点创建新的分支，探索不同的对话方向：</p>
+                <ul>
+                    <li>在任意消息上左滑或长按，选择"从此分支"</li>
+                    <li>创建新分支后，可以尝试不同的提问方式</li>
+                    <li>所有分支都会保留，方便对比和回顾</li>
+                    <li>点击消息可以切换到不同的分支</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q5: 我的对话数据存储在哪里？</div>
+            <div class="faq-answer">
+                <p>所有对话数据都存储在您的设备本地，包括：</p>
+                <ul>
+                    <li>对话历史记录</li>
+                    <li>API 密钥配置</li>
+                    <li>应用设置</li>
+                </ul>
+                <p><strong>隐私保护：</strong>KnowAtom 不会将任何数据上传到我们的服务器。您的对话内容仅在调用 AI 服务时发送到对应的 AI 服务商。</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q6: 如何导出对话记录？</div>
+            <div class="faq-answer">
+                <p>导出对话非常简单：</p>
+                <ol>
+                    <li>在对话列表中，长按要导出的对话</li>
+                    <li>选择"导出对话"</li>
+                    <li>选择导出格式（Markdown 或文本）</li>
+                    <li>通过系统分享功能发送或保存</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q7: 应用需要网络连接吗？</div>
+            <div class="faq-answer">
+                <p>是的，KnowAtom 需要网络连接来访问 AI 服务。但是：</p>
+                <ul>
+                    <li>浏览历史对话不需要网络</li>
+                    <li>导出对话不需要网络</li>
+                    <li>只有发送新消息时才需要联网</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q8: 遇到"连接失败"怎么办？</div>
+            <div class="faq-answer">
+                <p>请检查以下几点：</p>
+                <ol>
+                    <li><strong>网络连接</strong>：确保设备已连接到互联网</li>
+                    <li><strong>API 密钥</strong>：确认密钥正确且未过期</li>
+                    <li><strong>账户余额</strong>：确认 AI 服务账户有足够余额</li>
+                    <li><strong>服务状态</strong>：检查 AI 服务商是否正常运行</li>
+                    <li><strong>API 地址</strong>：如使用自定义地址，确认地址正确</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q9: 应用收费吗？</div>
+            <div class="faq-answer">
+                <p><strong>应用本身完全免费</strong>，无需支付任何费用。</p>
+                <p>但是，使用 AI 服务需要向对应的 AI 服务商付费：</p>
+                <ul>
+                    <li>大部分服务商提供免费额度供新用户试用</li>
+                    <li>超出免费额度后需要充值</li>
+                    <li>费用由 AI 服务商收取，与 KnowAtom 无关</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Q10: 如何删除对话记录？</div>
+            <div class="faq-answer">
+                <p>删除单个对话：</p>
+                <ul>
+                    <li>在对话列表中左滑对话项</li>
+                    <li>点击"删除"按钮</li>
+                </ul>
+                <p>清空所有数据：</p>
+                <ul>
+                    <li>进入"设置"</li>
+                    <li>滑到底部找到"清除所有数据"</li>
+                    <li>确认操作（此操作不可恢复）</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>📚 使用技巧</h2>
+
+        <div class="faq-item">
+            <div class="faq-answer">
+                <h3>提高对话质量</h3>
+                <ul>
+                    <li>使用清晰、具体的提问</li>
+                    <li>提供足够的上下文信息</li>
+                    <li>善用系统提示词设置角色</li>
+                    <li>尝试不同的 AI 模型对比效果</li>
+                </ul>
+
+                <h3>高效管理对话</h3>
+                <ul>
+                    <li>给对话起个有意义的标题</li>
+                    <li>使用树状模式探索不同方向</li>
+                    <li>定期导出重要对话备份</li>
+                    <li>清理不需要的历史记录</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <h2>💬 联系我们</h2>
+            <p>如果您有任何问题、建议或反馈，欢迎通过邮件联系我们：</p>
+            <a href="mailto:zhaimenwangsheng@gmail.com" class="email-link">
+                ✉️ zhaimenwangsheng@gmail.com
+            </a>
+            <p style="margin-top: 20px; font-size: 0.95em;">
+                我们会尽快回复您的邮件！
+            </p>
+        </div>
+
+        <h2>🔗 相关链接</h2>
+        <div class="faq-item">
+            <div class="faq-answer">
+                <ul>
+                    <li><a href="privacy-policy.html" style="color: #667eea; text-decoration: none;">📜 隐私政策</a></li>
+                    <li><a href="https://github.com/AlexHercules/knowatom2" style="color: #667eea; text-decoration: none;">💻 GitHub 项目</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 KnowAtom. All rights reserved.</p>
+            <p style="margin-top: 10px;">by cute Hercules</p>
+            <p style="margin-top: 5px; font-size: 0.85em;">最后更新日期：2025年10月20日</p>
+        </div>
+    </div>
+</body>
+</html>
